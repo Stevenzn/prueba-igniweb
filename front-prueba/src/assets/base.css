@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+.menu .active {
+  font-size: 20px;
+  color: #61dafd;
+  border-bottom: 1px solid #61dafd;
+}
